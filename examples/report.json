@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "training": 300,
+    "calibration": 150,
+    "test": 180
+  },
+  "robust": {
+    "true_positive": 20,
+    "true_negative": 148,
+    "false_positive": 12,
+    "false_negative": 0,
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1": 0.7692307692307693,
+    "false_positive_rate": 0.075
+  },
+  "mean_std_threshold_3": {
+    "true_positive": 20,
+    "true_negative": 160,
+    "false_positive": 0,
+    "false_negative": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "method_note": "Both centers/scales fit training only. Robust threshold uses separate normal calibration rows; the baseline uses fixed 3-sigma. Test labels affect metrics only.",
+  "data_source": {
+    "type": "synthetic_demo",
+    "seeds": [
+      31,
+      32,
+      33
+    ],
+    "generator": "correlated Gaussian normal operation; labelled single-sensor shifts only in test"
+  }
+}

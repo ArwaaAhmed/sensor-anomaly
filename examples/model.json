@@ -1,0 +1,17 @@
+{
+  "model": "median-mad-max-score",
+  "centers": {
+    "temperature": 44.959678,
+    "vibration": 1.9912835,
+    "current": 8.073691499999999
+  },
+  "scales": {
+    "temperature": 2.0587005537000063,
+    "vibration": 0.21592734659999985,
+    "current": 0.6133264157999997
+  },
+  "training_rows": 300,
+  "threshold": 2.217878647671141,
+  "calibration_rows": 150,
+  "calibration_quantile": 0.95
+}
